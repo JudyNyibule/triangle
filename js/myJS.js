@@ -5,6 +5,10 @@ function isTriangle(){
   var b = parseInt(document.getElementById('mySideB').value);
   var c = parseInt(document.getElementById('mySideC').value);
 
+  var yourSides=[];
+  yourSides.push(a,b,c);
+  alert('Your Sides are: '+a+','+b+','+c);
+
 	if ( (a+b>c) && (b+c>a) && (a+c>b) ){
   	alert("This is a triangle");
     if (a==b && a==c && b==c ){
