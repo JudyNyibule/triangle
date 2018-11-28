@@ -6,8 +6,13 @@ body{
   background-color: black;
 }
 #bannerimage{
+  background-position: center;
   background-size: 100% 100%;
   padding: 0;
+}
+/* styling for h2 tags */
+h2{
+  color: #2471A3;
 }
 /* styling for the footer section */
 footer{
