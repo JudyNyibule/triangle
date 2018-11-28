@@ -15,7 +15,7 @@ function isTriangle(){
         	alert('Scalene: No sides are equal.');  }
 
   }
-    else{ alert("This is not a triangle"); }
+    else{ alert("NOT a triangle: The sum of the lengths of any two sides of a triangle is less than or equal to the length of the third side."); }
 
 
 }
