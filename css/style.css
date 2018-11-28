@@ -1,0 +1,15 @@
+body{
+  font-size: 19px;
+  font-style:normal;
+  font-family: arial, sans-serif;
+  color: white;
+  background-color: black;
+}
+#bannerimage{
+  background-size: 100% 100%;
+  padding: 0;
+}
+/* styling for the footer section */
+footer{
+  text-align: center;
+}

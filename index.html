@@ -5,14 +5,39 @@
     <meta charset="utf-8">
     <title>TRIANGLE PROJECT</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/myJS.js" type="text/javascript"></script>
     <link rel="icon" type="image/gif" href="images/favicon.ico">
   </head>
   <!--start of body section-->
+<body>
+  <div id="bannerimage">
+    <img src="images/banner.png" alt="Banner Image" width="1400">
+  </div>
+  <div class="explain">
+    <h2>Triangle Inequality Theorem Calculator</h2>
+    <p> This web page allows a user to input the lengths of the sides of a triangle. Then by clicking the button,
+        returns information if these sides make up a triangle. Finally, if it is a real triangle, it displays whether
+        it's an equilateral, isosceles, or scalene triangle.
+    </p>
+  </div>
+  <form name="myTriangle" method="post" action="myJS.js" >
+    <p>Enter SIDE A:
+    <input type="number" id="mySideA"><br>
+    <p>Enter SIDE B:
+    <input type="number" id="mySideB"><br>
+    <P>Enter SIDE C:
+    <input type="number" id="mySideC"><br><br>
+    <input type="button" value="Is this a triangle?"
+    onclick="isTriangle();">
+    </p>
+  </form>
 
+
+</body>
 
 
   <!--start of footer section-->
-  <footer>
+<footer>
     <p>&copy; 2018 Judy Nyibule</p>
-  </footer>
+</footer>
 </html>
