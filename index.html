@@ -20,6 +20,7 @@
         it's an equilateral, isosceles, or scalene triangle.
     </p>
   </div>
+    <!--start of form to get user input-->
   <form name="myTriangle" method="post" action="myJS.js" >
     <p>Enter SIDE A:
     <input type="number" id="mySideA"><br>
@@ -27,9 +28,9 @@
     <input type="number" id="mySideB"><br>
     <P>Enter SIDE C:
     <input type="number" id="mySideC"><br><br>
-    <input type="button" value="Is this a triangle?"
+    <input type="button" id="formButtons" value="Check Triangle"
     onclick="isTriangle();">
-    <input type="reset" value="Reset">
+    <input type="reset" id="formButtons" value="Reset Form">
     </p>
   </form>
 
