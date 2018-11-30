@@ -33,7 +33,7 @@ footer{
     display: inline-block;
     font-size: 16px;
 }
-:: placeholder{
+::placeholder{
   color: inherit;
   text-align:left;
 }

@@ -1,9 +1,9 @@
 
 //Function that gets processed when the form is submitted.
 function isTriangle(){
-  var a = parseInt(document.getElementById('mySideA').value);
-  var b = parseInt(document.getElementById('mySideB').value);
-  var c = parseInt(document.getElementById('mySideC').value);
+  var a = parseFloat(document.getElementById('mySideA').value);
+  var b = parseFloat(document.getElementById('mySideB').value);
+  var c = parseFloat(document.getElementById('mySideC').value);
 
   var yourSides=[];
   yourSides.push(a,b,c);
