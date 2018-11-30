@@ -39,9 +39,9 @@ The Triangle Tracker was created by Judy Nyibule.
     -- IF FALSE, THEN a message displays to indicate it is NOT a triangle and program ends.
 
 ![screenshot](images/screenShot1.png)
-![screenshot](images/screenShot2.png)
-![screenshot](images/screenShot3.png)
-![screenshot](images/screenShot4.png)
+![screenshot](images/ScreenShot2.png)
+![screenshot](images/ScreenShot3.png)
+![screenshot](images/ScreenShot4.png)
 
 ----
 # Technology
