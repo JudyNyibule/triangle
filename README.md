@@ -21,7 +21,7 @@ EXAMPLE of a side that will not make a triangle: 4,8,3
 # Link to Site
 
 Link here
-(https://github.com/JudyNyibule/triangle)
+(https://judynyibule.github.io/triangle/)
 
 ----
 # Author
