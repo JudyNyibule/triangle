@@ -35,8 +35,8 @@ The Triangle Tracker was created by Judy Nyibule.
 2. WHAT: Once the sides have been inputed, the submit button sends the 3 arguments to a Javascript function isTriangle()  that checks [in order:]
 ## SCENARIO:
 -Do the sides inputed constitute a real triangle?
-    --IF TRUE [following the Triangle Inequality Theorem condition ] THEN a message displays to indicate it is a triangle and proceeds to display what type of triangle it is using the nested control flows.
-    -- IF FALSE, THEN a message displays to indicate it is NOT a triangle and program ends.
+    * IF TRUE [following the Triangle Inequality Theorem condition ] THEN a message displays to indicate it is a triangle and proceeds to display what type of triangle it is using the nested control flows.
+    * IF FALSE, THEN a message displays to indicate it is NOT a triangle and program ends.
 
 ![screenshot](images/screenShot1.png)
 ![screenshot](images/ScreenShot2.png)
@@ -55,13 +55,13 @@ Triangle Tracker is an open source with a public repository on GitHub.
 ----
 # Setup Instructions and Installation
 
-Download/Clone the project from GitHub
-[Preferred]: Install Atom editor to edit the code.
-Link atom to your online GitHub profile to push and commit code.
-Web Browser: Chrome
+* Download/Clone the project from GitHub
+* [Preferred]: Install Atom editor to edit the code.
+* Link atom to your online GitHub profile to push and commit code.
+* Web Browser: Chrome
 
 
 
 # License and Copyright
 
-The Triangle Tracker is licensed under the terms of the MIT Open Source license and is available for free.
+The Triangle Tracker is licensed under the terms of the MIT license and is available for free.
