@@ -37,7 +37,7 @@ The Triangle Tracker was created by Judy Nyibule.
 -Do the sides inputed constitute a real triangle?
     --IF TRUE [following the Triangle Inequality Theorem condition ] THEN a message displays to indicate it is a triangle and proceeds to display what type of triangle it is using the nested control flows.
     -- IF FALSE, THEN a message displays to indicate it is NOT a triangle and program ends.
-
+![screenshot](images/screenshot1)
 
 ----
 # Technology
