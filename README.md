@@ -28,12 +28,12 @@ Link here
 The Triangle Tracker was created by Judy Nyibule.
 
 ----
-# Behavior Break-Down
-## Narrative:
+# Behavior Driven Development
+## USER STORY:
 1. WHAT: A form is provided on screen with 3 input bars for the 3 sides representing a triangle.
 2. WHO: The user inputs 3 sides of a triangle.
 2. WHAT: Once the sides have been inputed, the submit button sends the 3 arguments to a Javascript function isTriangle()  that checks [in order:]
-## Scenario:
+## SCENARIO:
 -Do the sides inputed constitute a real triangle?
     --IF TRUE [following the Triangle Inequality Theorem condition ] THEN a message displays to indicate it is a triangle and proceeds to display what type of triangle it is using the nested control flows.
     -- IF FALSE, THEN a message displays to indicate it is NOT a triangle and program ends.
