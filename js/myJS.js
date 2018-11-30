@@ -13,13 +13,13 @@ function isTriangle(){
   	//check what type of triangle it is.
     if (a==b && a==c && b==c ){
       //display the sides received from user and what type of triangle it is.
-      document.getElementById('formResult').innerHTML = "Your Sides are: "+ yourSides+"This is a triangle --> Equilateral: All sides are equal!"
+      document.getElementById('formResult').innerHTML = "Your Sides are: "+ yourSides+" This is a(n) --> Equilateral: All sides are equal!"
       }
       else if(a==b || a==c || b==c ){
-        document.getElementById('formResult').innerHTML = "This is a triangle -->Isosceles: Exactly 2 sides are equal."
+        document.getElementById('formResult').innerHTML = "Your Sides are: "+ yourSides+" This is a(n) -->Isosceles: Exactly 2 sides are equal."
        }
         else {
-          document.getElementById('formResult').innerHTML = "This is a triangle -->Scalene: No sides are equal."  }
+          document.getElementById('formResult').innerHTML = "Your Sides are: "+ yourSides+" This is a(n) -->Scalene: No sides are equal."  }
 
   }
     else{
