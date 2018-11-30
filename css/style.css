@@ -14,6 +14,7 @@ body{
 /* styling for h2 tags */
 h2{
   color: #2471A3;
+  border-style: outset;
 }
 /* styling for the footer section */
 footer{
